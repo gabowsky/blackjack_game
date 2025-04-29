@@ -42,7 +42,6 @@ def compare(user_score, computer_score):
     else:
         return "You lose"
 
-
 while not is_game_over:
 
     user_score = calculate_score(user_cards)
